@@ -1,0 +1,17 @@
+.anima{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    animation-name: animi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animi{
+    0%{rotate: 0deg; border-color: violet; border-left: 4px solid;}
+    25%{rotate: 90deg; border-color: blue; border-top: 4px solid;}
+    50%{rotate: 180deg; border-color: green; border-right: 4px solid;}
+    75%{rotate: 270deg; border-color: yellow; border-bottom: 4px solid;}
+    100%{rotate: 360deg; border-color: violet; border-left: 4px solid;}
+
+}

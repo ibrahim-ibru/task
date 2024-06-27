@@ -1,0 +1,41 @@
+@media (min-width:300px) and (max-width:762px){
+    img.menu{
+      display: flex;
+    }
+    div.card{
+      max-width: 100%;
+      height: 100%;
+      margin: 0%;
+      object-fit: cover;
+      padding: 0%;
+    }
+    li.nli{
+      display: none;
+    }
+    div.nav{
+        position: fixed;
+      margin:2%;
+      background-color: white;
+    }
+    div.childgrid{
+        margin: 0;
+        margin-left: 0;
+        top: 50%;
+    }
+    div.subgrid{
+      display: none;
+    }
+    div.grid{
+      grid-gap: 0;
+      margin: 0;
+      grid-template-columns: repeat(1,1fr);
+    }
+    img.main{
+        border-radius: 0%;
+        margin-left: 0%;
+        top: 15%;
+    }
+    hr{
+      display: none;
+    }
+  }
